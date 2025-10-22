@@ -1,0 +1,5 @@
+file = open("diary.txt", "r")
+print(file.readline())
+print(file.readline())
+print(file.readline())
+file.close()
